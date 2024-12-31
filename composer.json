@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "php": ">=5.6",
+    "php": ">=7.3",
     "ayecode/wp-font-awesome-settings": "^1",
     "ayecode/wp-super-duper": "^1.0",
     "ayecode/wp-deactivation-survey": "^1.0",
@@ -26,6 +26,10 @@
   "config": {
     "allow-plugins": {
       "composer/installers": true
-    }
+    },
+    "platform": {
+      "php": "7.3.0"
+    },
+    "platform-check": false
   }
 }
